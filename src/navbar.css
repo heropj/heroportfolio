@@ -1,0 +1,74 @@
+.navcontainer{
+    background-color: var(--bgs);
+    width: 100vw;
+    display: flex;
+    padding: 5px 20px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 5px grey;
+}
+
+.logobox{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px dotted var(--pc);
+    background-color: var(--bg);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* cursor: pointer; */
+    font-family: "Press Start 2P", system-ui;
+    font-size: 10px;
+    animation: logoanimate 2s ease-in-out infinite;
+}
+
+
+@keyframes logoanimate{
+    0%{
+        border: 2px dotted var(--pc);
+        transform: scale(1.0);
+    }
+    50%{
+        border: 1px dashed var(--pc);
+        transform: scale(1.1);
+    }
+    100%{
+        border: 1px solid var(--pc);
+        transform: scale((1.0));
+    }
+}
+
+.navlinkbox{
+    display: flex;
+    gap: 50px;
+}
+
+.navlinkbox>div{
+    padding: 3px 7px;
+    font-weight: bold;
+    border: 2px solid var(--bgs);
+    /* border-bottom: 2px solid var(--pc); */
+    /* border-radius: 7px; */
+    transition: border-radius 0.5s ease-out;
+}
+
+.navlinkbox>div:hover{
+    cursor: pointer;
+    /* border: 2px solid var(--pc); */
+    border-left: 2px solid var(--pc);
+    border-right: 2px solid var(--pc);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /* color: var(--pc); */
+}
+
+.navlinkbox > div.navactive{
+    color: var(--pc);
+    border-left: 2px solid var(--pc);
+    border-right: 2px solid var(--pc);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /* text-shadow: 0px 0px 25px red; */
+}

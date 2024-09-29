@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="./projckttail.css"> -->
+    <link rel="stylesheet" href="projckttail.css">
+
+</head>
+<style>
+    /* 
+    bg: #1C1C22
+    bgcomp: #27272c
+
+    muted blue: 3A506B
+    */
+    *{
+        margin: 0px ;
+        padding: 0px ;
+        box-sizing: border-box !important;
+        /* border: 1px solid red !important; */
+    }
+
+    body{
+        color: white;
+        background-color: #27272c;
+    }
+    .projcontainer:hover img{
+        transform: scale(1);
+        transition: all 200ms ease-in;
+    }
+    .projcontainer:hover .imgcvr{
+        opacity: 0.5;
+    }
+    img{
+        transform: scale(1.1);
+    }
+    .projdesc{
+        /* width: 100%;
+        height: 100%; */
+        /* display: none; */
+        color: transparent;
+        transition: color 500ms ease-in;
+    }
+    .projcontainer:hover .projdesc{
+        color: white;
+    }
+    /* 34343a */
+    /* Accent Color: #4A90E2 (Bright Blue) */
+
+    
+</style>
+<body class="flex items-center justify-center bhero">
+    <div class="p-[15px] w-fit h-fit bg-red-500 hover:rounded-3xl p-6 shadow-lg transition-all duration-100 hover:shadow-xl hover:scale-[1.01] shdwbyhero"
+     style="background-color: #1C1C22;">
+        <h2 class="bhero text-xl font-semibold mb-3 text-gray-100 flex items-center">
+          <GraduationCap class="mr-2" /> Projects
+        </h2>
+        <div class='projcontainer [250px] w-[400px] flex items-end relative overflow-hidden'>
+            <img class="absolute z-0 block object-fit top-0" src="./src/imgland.jpg" />
+            <div class="imgcvr bg-black opacity-20 w-full h-full absolute z-10 top-0" ></div>
+            <div class="projdet z-20 p-[10px]">
+                <div class="projtitle " style="font-size: 24px; display: flex; justify-content: space-between; padding: 3px 7px;">title<span class="arrow" style="display: flex; align-items: center; justify-content: center;">></span></div>
+                <div class="projdesc" style="font-size: 16px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus at dolorum tempore sit labore voluptatibus similique cum sapiente, officia accusantium.</div>
+                <div class="projstack">html</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

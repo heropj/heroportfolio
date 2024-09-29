@@ -1,0 +1,29 @@
+.aboutcontainer{
+    border: 1px solid wheat;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px 20px;
+    flex-grow: 1;
+}
+.showcase{
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 25px;
+    background-color: #27272c;
+    padding: 2px 5px;
+}
+
+.skills, .experience, .education, .connect{
+    cursor: pointer;
+}
+
+.skills:hover, .experience:hover, .education:hover, .connect:hover{
+    color: #2399C4;
+}
+
+.active{
+    /* color: #2399C4; */
+    border-bottom:2px solid #2399C4;
+}
