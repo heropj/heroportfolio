@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/heroportfolio/static/css/main.fbb9b7d2.css",
+    "main.js": "/heroportfolio/static/js/main.ccb79198.js",
+    "static/media/imgland.jpg": "/heroportfolio/static/media/imgland.a82c957927e3e28643ea.jpg",
+    "static/media/image.png": "/heroportfolio/static/media/image.02c5c3087c9d112b3e14.png",
+    "index.html": "/heroportfolio/index.html",
+    "main.fbb9b7d2.css.map": "/heroportfolio/static/css/main.fbb9b7d2.css.map",
+    "main.ccb79198.js.map": "/heroportfolio/static/js/main.ccb79198.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbb9b7d2.css",
+    "static/js/main.ccb79198.js"
+  ]
+}
