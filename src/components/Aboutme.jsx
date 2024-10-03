@@ -72,14 +72,14 @@ export default function AboutPageBento() {
           </h2>
           <div className="grow projectScroll w-[400px] flex gap-[10px] overflow-x-scroll">
             <div className="projContainer bg-gray-700/30 backdrop-blur-lg border border-gray-500/30 shadow-lg p-3 rounded-lg min-w-[300px] overflow-hiddden flex flex-col gap-[10px]">
-                <h2 className="text-xl">Project1</h2>
-                {/* <div className="grow">projdesc Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur rerum a accusantium ipsam quod dolores suscipit, assumenda accusamus commodi obcaecati.</div> */}
-                <div>proj stack</div>
+                <h2 className="text-xl text-[#2399C4]">Chitrakari</h2>
+                <div className="grow text-[14px]">A real-time platform that enables multiple users to sketch, write, and brainstorm together on a shared digital canvas.</div>
+                <div>ReactJS, Firebase</div>
             </div>
             <div className="projContainer bg-gray-700/30 backdrop-blur-lg border border-gray-500/30 shadow-lg p-3 rounded-lg min-w-[300px] overflow-hiddden p-1 flex flex-col gap-[10px]">
-                <h2 className="text-xl">Project1</h2>
-                {/* <div className="grow">projdesc Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur rerum a accusantium ipsam quod dolores suscipit, assumenda accusamus commodi obcaecati.</div> */}
-                <div>proj stack</div>
+                <h2 className="text-xl text-[#2399C4]">WebMarker</h2>
+                <div className="grow text-sm">Achrome extension that allows users to highlight and annotate text on any webpage.</div>
+                <div>HTML, CSS, JS, Chrome Storage API</div>
             </div>
           </div>
         </div>
