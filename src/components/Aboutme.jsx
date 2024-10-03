@@ -38,7 +38,7 @@ export default function AboutPageBento() {
               </p>
             </div>
             <div className="flex items-center text-sm text-gray-400">
-              <MapPin size={18} className="mr-2" />
+              <MapPin size={18} fill="#2399C4" className="mr-2" />
               <span>Pune, India</span>
             </div>
           </div>
@@ -50,30 +50,37 @@ export default function AboutPageBento() {
             <User className="mr-2" /> Connect
           </h2> */}
           <div className="flex flex-col grow  justify-between"> {/*hover:grow-0 */}
-            <a href="#" className="text-gray-300 hover:text-gray-100 transition-colors flex flex-col items-center group">
-              <Github color="#3e9392" size={24} className="group-hover:scale-110 transition-transform duration-100" />
+            <a href="https://github.com/heropj" target="_blank" className="text-gray-300 hover:text-gray-100 transition-colors flex flex-col items-center group">
+              <Github color="#2399C4" size={24} className="group-hover:scale-110 transition-transform duration-100" />
               <span className="mt-1 text-xs">GitHub</span>
             </a>
-            <a href="#" className="text-gray-300 hover:text-gray-100 transition-colors flex flex-col items-center group">
-              <Linkedin color="#3e9392" size={24} className="group-hover:scale-110 transition-transform duration-100" />
+            <a href="https://www.linkedin.com/in/pranjal-pandey-518654253/" target="_blank" className="text-gray-300 hover:text-gray-100 transition-colors flex flex-col items-center group">
+              <Linkedin color="#2399C4" size={24} className="group-hover:scale-110 transition-transform duration-100" />
               <span className="mt-1 text-xs">LinkedIn</span>
             </a>
-            <a href="#" className="text-gray-300 hover:text-gray-100 transition-colors flex flex-col items-center group">
-              <Mail color="#3e9392" size={24} className="group-hover:scale-110 transition-transform duration-100" />
+            <a href= "mailto: hero.pj.81@gmail.com" target="_blank" className="text-gray-300 hover:text-gray-100 transition-colors flex flex-col items-center group">
+              <Mail color="#2399C4" size={24} className="group-hover:scale-110 transition-transform duration-100" />
               <span className="mt-1 text-xs">Email</span>
             </a>
           </div>
         </div>
 
         {/* Project - Small box */}
-        <div className="md:col-span-5 md:row-span-5 hover:rounded-3xl p-6 shadow-lg transition-all duration-100 hover:shadow-xl hover:scale-[1.01] shdwbyhero" style={{ backgroundColor: '#27272c'}}>
+        <div className="flex flex-col md:col-span-5 md:row-span-5 hover:rounded-3xl p-6 shadow-lg transition-all duration-100 hover:shadow-xl hover:scale-[1.01] shdwbyhero" style={{ backgroundColor: '#27272c'}}>
           <h2 className="text-xl font-semibold mb-3 text-gray-100 flex items-center">
             <GraduationCap className="mr-2" /> Projects
           </h2>
-          <div>
-            {/* <p className="font-medium text-gray-100">BSc in Computer Science</p>
-            <p className="text-sm text-gray-400">University of Technology | 2014 - 2018</p> */}
-            <Proj/>
+          <div className="grow projectScroll w-[400px] flex gap-[10px] overflow-x-scroll">
+            <div className="projContainer bg-gray-700/30 backdrop-blur-lg border border-gray-500/30 shadow-lg p-3 rounded-lg min-w-[300px] overflow-hiddden flex flex-col gap-[10px]">
+                <h2 className="text-xl">Project1</h2>
+                {/* <div className="grow">projdesc Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur rerum a accusantium ipsam quod dolores suscipit, assumenda accusamus commodi obcaecati.</div> */}
+                <div>proj stack</div>
+            </div>
+            <div className="projContainer bg-gray-700/30 backdrop-blur-lg border border-gray-500/30 shadow-lg p-3 rounded-lg min-w-[300px] overflow-hiddden p-1 flex flex-col gap-[10px]">
+                <h2 className="text-xl">Project1</h2>
+                {/* <div className="grow">projdesc Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur rerum a accusantium ipsam quod dolores suscipit, assumenda accusamus commodi obcaecati.</div> */}
+                <div>proj stack</div>
+            </div>
           </div>
         </div>
 
@@ -141,7 +148,7 @@ export default function AboutPageBento() {
             </div>
         </div>
 
-        {/* Experience - Medium box spanning 2 columns */}
+        {/* contact - Medium box spanning 2 columns */}
         <div className="md:col-span-3 md:row-span-5 hover:rounded-3xl p-6 shadow-lg transition-all duration-100 hover:shadow-xl hover:scale-[1.01] shdwbyhero" style={{ backgroundColor: '#27272c'}}>
           <h2 className="text-2xl font-semibold text-gray-100 flex items-center">
             <Briefcase className="mr-2" /> Contact

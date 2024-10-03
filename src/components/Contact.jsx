@@ -109,7 +109,7 @@ function ContactForm() {
           type="submit" 
           disabled={state.submitting}
           style={{
-            backgroundColor: state.submitting ? '#9DA3A7' : '#4F46E5',
+            backgroundColor: state.submitting ? '#3e9391' : '#2399C4',
             color: 'white',
             padding: '5px 10px',
             borderRadius: '4px',
