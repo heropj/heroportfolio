@@ -1,5 +1,5 @@
 // import Image from "next/image"
-import { Github, Linkedin, Mail, Briefcase, GraduationCap, Code, User,Server,Link, MapPin } from "lucide-react"
+import { Github, Linkedin, Mail, Briefcase, GraduationCap, Code, User,Server,Link, MapPin, MessageSquare } from "lucide-react"
 import './tailw.css'
 import './aboutme.css'
 import svgs from './skills/skillsvgs'
@@ -75,7 +75,7 @@ export default function AboutPageBento() {
                 <h2 className="text-xl text-[#2399C4]">Chitrakari</h2>
                 <div className="grow text-[14px]">A real-time platform that enables multiple users to sketch, write, and brainstorm together on a shared digital canvas.</div>
                 <div>ReactJS, Firebase</div>
-            </div>
+            </div> 
             <div className="projContainer bg-gray-700/30 backdrop-blur-lg border border-gray-500/30 shadow-lg p-3 rounded-lg min-w-[300px] overflow-hiddden p-1 flex flex-col gap-[10px]">
                 <h2 className="text-xl text-[#2399C4]">WebMarker</h2>
                 <div className="grow text-sm">Achrome extension that allows users to highlight and annotate text on any webpage.</div>
@@ -151,7 +151,7 @@ export default function AboutPageBento() {
         {/* contact - Medium box spanning 2 columns */}
         <div className="md:col-span-3 md:row-span-5 hover:rounded-3xl p-6 shadow-lg transition-all duration-100 hover:shadow-xl hover:scale-[1.01] shdwbyhero" style={{ backgroundColor: '#27272c'}}>
           <h2 className="text-2xl font-semibold text-gray-100 flex items-center">
-            <Briefcase className="mr-2" /> Contact
+            <MessageSquare  className="mr-2" /> Contact
           </h2>
           <div className="space-y-4">
             <ContactForm/>
