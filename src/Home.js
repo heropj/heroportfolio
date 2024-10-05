@@ -2,6 +2,7 @@ import React, {useState,useEffect} from 'react'
 import { Link,useNavigate  } from 'react-router-dom';
 import DevAnimation from './components/DevAnimation';
 import imgme from './image.png'
+import imgsvg from './smilesvg.svg'
 
 function Home() {
   let count=0;
@@ -110,8 +111,8 @@ function Home() {
   let strhw="<hello world, ";
   return (
     <div className='homecontainer'>
-        <div>
-          <img src={imgme}></img>
+        <div style={{marginLeft: '5%'}}>
+          <img src={imgsvg}></img>
         </div>
         <div className='introcontainer'>
           <div className='helloworld'>
